@@ -40,8 +40,17 @@ class list_categories_widget extends WP_Widget {
 
 							
 								<?php foreach($cats as $cat) { ?>
-										<?php  var_dump(get_term_link($cat->slug, $taxonomy));  ?>
-										<li><a href="<?php echo get_term_link($cat->slug, $taxonomy); ?>" title="<?php sprintf( __( "View all posts in %s" ), $cat->name ); ?>"><?php echo $cat->name ?> (<span class="count"><?php echo $cat->category_count; ?></span>)</a></li>								
+										
+										<?php  //var_dump(get_term_link($cat->slug, $taxonomy));  ?>
+										
+										<?php if  ( (!is_wp_error( get_term_link($cat->slug, $taxonomy) ) ): ?>
+											<li><a href="<?php echo get_term_link($cat->slug, $taxonomy); ?>" title="<?php sprintf( __( "View all posts in %s" ), $cat->name ); ?>"><?php echo $cat->name ?> (<span class="count"><?php echo $cat->category_count; ?></span>)</a></li>
+										
+										<?php else: ?>
+											<p>No Categories!</p>
+										
+										<?php endif ?>
+										
 		
 								<?php } ?>
 							
