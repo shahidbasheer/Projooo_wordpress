@@ -13,7 +13,7 @@
                                     
                                     <div class="entry-meta">                                    
                                          <span class="auther">  <?php _tk_posted_on(); ?></span>
-                                         <img src="<?php echo  theme_root . '/'; ?>includes/img/social-icon.png">
+                                         <!-- <img src="<?php// echo  theme_root . '/'; ?>includes/img/social-icon.png"> -->
                                     </div>
                               </header>
 

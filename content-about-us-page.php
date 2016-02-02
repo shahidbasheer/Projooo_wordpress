@@ -12,7 +12,7 @@
 
 			     	   <section class="container-projoo anotherintro">
 			     	   	<h2 class="m-b-10">Projooo and Business Value.</h2>
-			     	   	<img src="<?php echo  theme_root . '/'; ?>includes/img/social-icon.png" class="m-b-20">
+			     	   	<!-- <img src="<?php// echo  theme_root . '/'; ?>includes/img/social-icon.png"> -->
 			     	   	 <p>We’re dedicated to selling innovative and creative products to designers at affordable prices. We also help designers maximize their revenue by actively promoting the products that they sell through our market.We’re dedicated to selling innovative and creative products to designers at affordable prices. We also help designers maximize their revenue by actively promoting the products that they sell through our market.</p>
 			     	   </section>
 
