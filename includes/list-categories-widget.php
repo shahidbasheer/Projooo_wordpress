@@ -42,9 +42,9 @@ class list_categories_widget extends WP_Widget {
 								<?php foreach($cats as $cat) { ?>
 									<?php if (isset ( $cat->slug ) ): ?>
 										<li><a href="<?php echo get_term_link($cat->slug, $taxonomy); ?>" title="<?php sprintf( __( "View all posts in %s" ), $cat->name ); ?>"><?php echo $cat->name ?> (<span class="count"><?php echo $cat->category_count; ?></span>)</a></li>								
-									<?php elseif ?>
-										<p>No Catagoy Exist</p>
 									<?php else: ?>
+										<p>No Catagoy Exist</p>
+									<?php endif ?>
 								<?php } ?>
 							
 					ife
