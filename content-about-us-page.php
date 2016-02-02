@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: about-us-page
+ * Template Name: 
  *
  * @package _tk
  */
