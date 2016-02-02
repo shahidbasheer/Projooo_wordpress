@@ -151,7 +151,3 @@ add_action( 'widgets_init', create_function( '', "register_widget( 'Projo_social
 
 ?> 
 
-<style>
-
-    
-</style>
