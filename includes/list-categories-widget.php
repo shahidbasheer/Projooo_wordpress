@@ -29,7 +29,7 @@ class list_categories_widget extends WP_Widget {
 		
 		// retrieves an array of categories or taxonomy terms
 		$cats = get_categories($args);
-		
+		var_dump($cats);
 		?>
 			  <div class="catagries">
 			     <header>
