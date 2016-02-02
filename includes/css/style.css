@@ -389,12 +389,18 @@ section.intro {
 @media (max-width: 767px) {
   .headwrap__blue .form-control {
     margin-bottom: 10px;
-    max-width: 398px !important;
+    width: 235px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .headwrap__blue .form-control {
+    margin-bottom: 10px;
+    max-width: 200px;
   }
 }
 .headwrap__blue .form-control {
   height: 48px;
-  max-width: 200px;
+  width: 250px;
   margin-right: 11px;
   border-color: #003471;
 }
@@ -796,6 +802,69 @@ span a.more {
 span a.more:hover, span a.more:focus {
   color: #0072bc;
   text-decoration: underline;
+}
+
+#modal-form .modal-content {
+  border-radius: 0px;
+  outline: 0;
+  box-shadow: none;
+}
+#modal-form .modal-body {
+  text-align: center;
+}
+#modal-form .form-control {
+  border-radius: 0;
+  width: 100%;
+  max-width: 82%;
+  height: 48px;
+  margin-bottom: 20px;
+  margin-right: 0;
+  border-color: #003471;
+}
+#modal-form .form-control::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #003471;
+}
+#modal-form .form-control:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #003471;
+  opacity: 1;
+}
+#modal-form .form-control::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #003471;
+  opacity: 1;
+}
+#modal-form .form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #003471;
+}
+#modal-form .form-control:placeholder-shown {
+  /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+  color: #003471;
+}
+#modal-form .modal-footer {
+  border-top: 0;
+}
+#modal-form .modal-header {
+  border-bottom: 0;
+}
+#modal-form .form-control:focus {
+  border-color: #003471;
+}
+#modal-form.about-us {
+  padding: 40px 0 40px;
+}
+#modal-form .btn {
+  width: 100%;
+  max-width: 82%;
+  padding: 14px 38px;
+}
+#modal-form .modal-title {
+  color: #0072bc;
+  font-weight: 700px;
+  font-size: 26px;
+  text-align: center;
 }
 
 /*
