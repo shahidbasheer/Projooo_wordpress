@@ -19,9 +19,11 @@
                                 
                               <div class="entry-content">
 
-                                   <div class="entry-content-thumbnail">
-                                    <?php the_post_thumbnail(); ?>                                     
-                                   </div>
+                                  <?php if ( has_post_thumbnail() ): ?>
+                                    <div class="entry-content-thumbnail">
+                                     <?php the_post_thumbnail(); ?>                                     
+                                    </div>
+                                  <?php endif ?>
 
                                     <?php the_content(); ?>
                                    
