@@ -210,14 +210,22 @@ function _tk_posted_on() {
 		$time_string .= __(', updated on ', '_tk') . $time_string_update;
 	}
 
-	printf( __( '<span class="posted-on">Posted on %1$s</span><span class="byline"> by %2$s</span>', '_tk' ),
-		$time_string,
-		sprintf( '<span class="author vcard"><a class="url fn n" href="%1$s" title="%2$s">%3$s</a></span>',
+	// printf( __( '<span class="posted-on">Posted on %1$s</span><span class="byline"> by %2$s</span>', '_tk' ),
+	// 	$time_string,
+	// 	sprintf( '<span class="author vcard"><a class="url fn n" href="%1$s" title="%2$s">%3$s</a></span>',
+	// 		esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
+	// 		esc_attr( sprintf( __( 'View all posts by %s', '_tk' ), get_the_author() ) ),
+	// 		esc_html( get_the_author() )
+	// 	)
+	// );
+
+	printf ( 'Posted by <span class="author vcard"><a class="url fn n" href="%1$s" title="%2$s">%3$s</a></span>',
 			esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
 			esc_attr( sprintf( __( 'View all posts by %s', '_tk' ), get_the_author() ) ),
 			esc_html( get_the_author() )
-		)
-	);
+		);
+
+
 }
 endif;
 

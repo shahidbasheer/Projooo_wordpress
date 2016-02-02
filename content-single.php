@@ -4,63 +4,33 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header>
-		<h1 class="page-title"><?php the_title(); ?></h1>
 
-		<div class="entry-meta">
-			<?php _tk_posted_on(); ?>
-		</div><!-- .entry-meta -->
-	</header><!-- .entry-header -->
+                          <article class="single-post">
+                               
+                              <header>
+                              	<?php the_title( sprintf( '<h2 class="page-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+                                    
+                                    <div class="entry-meta">                                    
+                                         <span class="auther">	<?php _tk_posted_on(); ?></span>
+                                         <img src="<?php echo  theme_root . '/'; ?>includes/img/social-icon.png">
+                                    </div>
+                              </header>
 
-	<div class="entry-content">
-		<div class="entry-content-thumbnail">
-			<?php the_post_thumbnail(); ?>
-		</div>
-		<?php the_content(); ?>
-		<?php
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . __( 'Pages:', '_tk' ),
-				'after'  => '</div>',
-			) );
-		?>
-	</div><!-- .entry-content -->
+                                
+                              <div class="entry-content">
 
-	<footer class="entry-meta">
-		<?php
-			/* translators: used between list items, there is a space after the comma */
-			$category_list = get_the_category_list( __( ', ', '_tk' ) );
+                                   <div class="entry-content-thumbnail">
+                                    <?php the_post_thumbnail(); ?>                                     
+                                   </div>
 
-			/* translators: used between list items, there is a space after the comma */
-			$tag_list = get_the_tag_list( '', __( ', ', '_tk' ) );
+                                    <?php the_content(); ?>
+                                   
+                              </div>
 
-			if ( ! _tk_categorized_blog() ) {
-				// This blog only has 1 category so we just need to worry about tags in the meta text
-				if ( '' != $tag_list ) {
-					$meta_text = __( 'This entry was tagged %2$s. Bookmark the <a href="%3$s" title="Permalink to %4$s" rel="bookmark">permalink</a>.', '_tk' );
-				} else {
-					$meta_text = __( 'Bookmark the <a href="%3$s" title="Permalink to %4$s" rel="bookmark">permalink</a>.', '_tk' );
-				}
+                              
+                              <footer class="entry-meta">
+          
+                              </footer><!-- .entry-meta -->
 
-			} else {
-				// But this blog has loads of categories so we should probably display them here
-				if ( '' != $tag_list ) {
-					$meta_text = __( 'This entry was posted in %1$s and tagged %2$s. Bookmark the <a href="%3$s" title="Permalink to %4$s" rel="bookmark">permalink</a>.', '_tk' );
-				} else {
-					$meta_text = __( 'This entry was posted in %1$s. Bookmark the <a href="%3$s" title="Permalink to %4$s" rel="bookmark">permalink</a>.', '_tk' );
-				}
-
-			} // end check for categories on this blog
-
-			printf(
-				$meta_text,
-				$category_list,
-				$tag_list,
-				get_permalink(),
-				the_title_attribute( 'echo=0' )
-			);
-		?>
-
-		<?php edit_post_link( __( 'Edit', '_tk' ), '<span class="edit-link">', '</span>' ); ?>
-	</footer><!-- .entry-meta -->
-</article><!-- #post-## -->
+                           </article>
+                     

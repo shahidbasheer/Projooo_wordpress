@@ -6,31 +6,52 @@
  *
  * @package _tk
  */
-?>
-			</div><!-- close .*-inner (main-content or sidebar, depending if sidebar is used) -->
-		</div><!-- close .row -->
-	</div><!-- close .container -->
-</div><!-- close .main-content -->
+?>			
 
-<footer id="colophon" class="site-footer" role="contentinfo">
-<?php // substitute the class "container-fluid" below if you want a wider content area ?>
-	<div class="container">
-		<div class="row">
-			<div class="site-footer-inner col-sm-12">
+			 </div> <!-- row -->
 
-				<div class="site-info">
-					<?php do_action( '_tk_credits' ); ?>
-					<a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', '_tk' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', '_tk' ), 'WordPress' ); ?></a>
-					<span class="sep"> | </span>
-                    <a class="credits" href="http://themekraft.com/" target="_blank" title="Themes and Plugins developed by Themekraft" alt="Themes and Plugins developed by Themekraft"><?php _e('Themes and Plugins developed by Themekraft.','_tk') ?> </a>
-				</div><!-- close .site-info -->
+			</div><!-- blog .*-inner (main-content or sidebar, depending if sidebar is used) -->
+	
+ <footer class="site-footer">
 
-			</div>
-		</div>
-	</div><!-- close .container -->
-</footer><!-- close #colophon -->
+
+ 	<!-- The WordPress Menu goes here -->
+ 	<?php wp_nav_menu(
+ 		array(
+ 			'theme_location' 	=> 'footer',
+ 			'depth'             => 2,
+ 			'container'         => 'div',
+ 			'container_class'   => 'inline-block',
+ 			'menu_class' 		=> 'list-inline',
+ 			'fallback_cb' 		=> 'wp_bootstrap_navwalker::fallback',
+ 			'menu_id'			=> 'main-menu',
+ 			
+ 		)
+ 	); ?>
+
+ 	<span>Contact (855) 377-0335  © 2016 Projoo LLC</span>   			
+
+ 	   	<!-- <ul class="list-inline">
+
+ 	   		<li><a href="">Blog</a></li>
+ 	   		<li><a href="">Login</a></li>
+ 	   		<li><a href="">Sign up</a></li>
+ 	   		<li><a href="">Terms of Service Privacy</a></li>
+ 	   		<span>Contact (855) 377-0335  © 2016 Projoo LLC</span>   		
+ 	   		
+ 	   	</ul> -->
+	  </footer>
+
+</div>
+    <!-- /wrap -->
 
 <?php wp_footer(); ?>
 
 </body>
 </html>
+
+<style>
+	.inline-block {
+	display: inline-block;
+}
+</style>

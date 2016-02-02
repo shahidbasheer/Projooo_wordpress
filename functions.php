@@ -36,6 +36,7 @@ function _tk_setup() {
 	 * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
 	*/
 	add_theme_support( 'post-thumbnails' );
+	set_post_thumbnail_size( 5592, 222, true );
 
 	/**
 	 * Enable support for Post Formats
@@ -63,6 +64,10 @@ function _tk_setup() {
 	*/
 	register_nav_menus( array(
 		'primary'  => __( 'Header bottom menu', '_tk' ),
+	) );
+
+	register_nav_menus( array(
+		'footer'  => __( 'footer menu', '_tk' ),
 	) );
 
 }
@@ -96,7 +101,9 @@ function _tk_scripts() {
 	wp_enqueue_style( '_tk-bootstrap', get_template_directory_uri() . '/includes/resources/bootstrap/css/bootstrap.min.css' );
 
 	// load Font Awesome css
-	wp_enqueue_style( '_tk-font-awesome', get_template_directory_uri() . '/includes/css/font-awesome.min.css', false, '4.1.0' );
+	wp_enqueue_style( '_tk-font-awesome', get_template_directory_uri() . '/includes/font-awesome/css/font-awesome.min.css', false, '4.1.0' );
+
+	wp_enqueue_style( 'projoo_theme', get_template_directory_uri() . '/includes/css/style.min.css', false, '4.1.0' );
 
 	// load _tk styles
 	wp_enqueue_style( '_tk-style', get_stylesheet_uri() );
@@ -149,3 +156,37 @@ require get_template_directory() . '/includes/jetpack.php';
  * Load custom WordPress nav walker.
  */
 require get_template_directory() . '/includes/bootstrap-wp-navwalker.php';
+
+
+require get_template_directory() . '/includes/theme_widget.php';
+
+
+require get_template_directory() . '/includes/theme_widget_about.php';
+
+require get_template_directory() . '/includes/theme_widget_social.php';
+
+require get_template_directory() . '/includes/list-categories-widget.php';
+
+
+
+define('theme_root',  get_template_directory_uri() );
+
+
+
+
+/**
+ * Filter the excerpt "read more" string.
+ *
+ * @param string $more "Read more" excerpt string.
+ * @return string (Maybe) modified "read more" excerpt string.
+ */
+function wpdocs_excerpt_more( $more ) {
+
+	return sprintf( '...<span> <a href="%1$s" class="more">%2$s</a></span>',
+        get_permalink( get_the_ID() ),
+        __( 'Continue Reading', '_tk' )
+    );
+
+ 
+}
+add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );

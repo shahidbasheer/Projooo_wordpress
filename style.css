@@ -1,5 +1,5 @@
 /*
-Theme Name: _tk
+Theme Name: Projoo
 Theme URI: http://themekraft.com/store/_tk-free-wordpress-starter-theme-based-on-twitter-bootstrap/
 Author: ThemeKraft
 Author URI: http://themekraft.com/
@@ -184,6 +184,9 @@ display: block;
 /* Hiding the search widget's button in widgets. thats just too old-skool. :) but if you want it back, just delete the next line.
  * Note: you can change the whole appearance of the search_form() function in our searchform.php */
 .widget_search .search-form input[type="submit"] { display: none; }
+
+
+.widget_search .search-form label { width: 100%; }
 
 /* Make sure select elements fit in widgets */
 .widget select {
