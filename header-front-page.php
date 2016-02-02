@@ -68,11 +68,19 @@
 		     	   			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 		     	   				<h1 class="m-b-10">Get Work Done, Together</h1>
 		     	   				<p class="m-b-20">Simple approach to simple online collaboration and project management.</p>
+		     	   					
 		     	   					<form class="form-inline" action="" method="POST" role="form">
 		     	   						
-		     	   						<div class="form-group">
-		     	   							<input type="text" class="form-control" id="" placeholder="Enter Your Personal Email Here">
+		     	   						<div class="row">
+		     	   							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 m-b-20">
+		     	   								
+		     	   									<input name="name" type="text" class="form-control" id="" placeholder="Full Name">
+		     	   									<input name="bus_name" type="text" class="form-control" id="" placeholder="Business Name">
+		     	   									<input name="email" type="email" class="form-control" id="" placeholder="Email Addresss">
+
+		     	   							</div>
 		     	   						</div>
+		     	   						
 		     	   					
 		     	   						<button type="submit" class="btn btn-green">Request for Early Access</button>
 		     	   					</form>

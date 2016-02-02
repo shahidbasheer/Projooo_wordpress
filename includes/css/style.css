@@ -386,9 +386,15 @@ section.intro {
 .headwrap__blue .btn {
   padding: 14px 38px;
 }
+@media (max-width: 767px) {
+  .headwrap__blue .form-control {
+    margin-bottom: 10px;
+    max-width: 398px !important;
+  }
+}
 .headwrap__blue .form-control {
   height: 48px;
-  width: 358px;
+  max-width: 200px;
   margin-right: 11px;
   border-color: #003471;
 }
