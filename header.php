@@ -72,6 +72,6 @@
 
      	  <div class="container-projoo blog">
                  <div class="row">
-                      <div class="col-xs-12 <?php if ( is_home() || is_archive() || is_search() || is_singular() ) { echo "col-sm-7 col-md-8 col-lg-8";  }  else {  echo "";  }   ?>">
+                      <div class="col-xs-12 <?php if ( is_home() || is_archive() || is_search() || is_singular() || is_404() ) { echo "col-sm-7 col-md-8 col-lg-8";  }  else {  echo "";  }   ?>">
 	
 		

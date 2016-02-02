@@ -7,11 +7,6 @@
 
 get_header(); ?>
 
-<div class="seprater-bottom-70"></div>
-
-     	  <div class="container-projoo blog">
-                 <div class="row">
-                      <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
 
 
 	<?php // add the class "panel" below here to wrap the content-padder in Bootstrap style ;) ?>
@@ -26,10 +21,9 @@ get_header(); ?>
 			<p><?php _e( 'Nothing could be found at this location. Maybe try a search?', '_tk' ); ?></p>
 
 			<?php get_search_form(); ?>
-
-		</div><!-- .page-content -->
-	
-	</section><!-- .content-padder -->
- </div> <!-- col-9 -->
+		</div>
+		
 <?php get_sidebar(); ?>
+</div> 
+</div> 
 <?php get_footer(); ?>
