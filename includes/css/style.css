@@ -649,7 +649,7 @@ article.single-post .page-title a:hover, article.single-post .page-title a:focus
 }
 article.single-post .entry-meta {
   color: #333;
-  margin-bottom: 50px;
+  margin-bottom: 0;
 }
 article.single-post .entry-meta span.auther {
   display: block;
