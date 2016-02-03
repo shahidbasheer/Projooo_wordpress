@@ -19,7 +19,7 @@ jQuery(document).ready(function($) {
 		function submitForm () {
 			$.ajax({
 					  type: 'POST',
-					  url: templateDir + '/includes/contact-form.php',
+					  url: 'contact-form.php',
 					  data: myform.serialize(),
 					  beforeSend: function(){
 							    	ajaxDone ();
@@ -51,14 +51,14 @@ jQuery(document).ready(function($) {
 				    console.log(text);
 				    if (text == "success") {				
 						
-						var msg = "Your have been Subscibed!";
+						var msg = '<i class="glyphicon glyphicon-ok"></i>Your have been Subscibed!';
 						var msgClasses = "animated green";
 						
 						 updateResponse( msg , msgClasses );
 
 
 				    }  else { 	             
-			            var msg = "opps somthing wrong!";
+			            var msg = '<p>opps somthing wrong!</p>';
 			            var msgClasses = "red";
 			               updateResponse( msg , msgClasses );
 
@@ -73,7 +73,7 @@ jQuery(document).ready(function($) {
 				   	$('#subForm-header button').text('Request for Early Access');
 				   	$(".notification").removeClass('red green').addClass( msgClasses );
 				   	$(".notification").slideDown('slow');
-				   	$('.notification p').text( msg );
+				   	$('.notification p').html( msg );
 				    
 				}
 		 		
@@ -85,7 +85,7 @@ jQuery(document).ready(function($) {
 		function submitForm_2 () {
 			$.ajax({
 					  type: 'POST',
-					  url: templateDir + '/includes/contact-form.php',
+					  url: 'contact-form.php',
 					  data: myform.serialize(),
 					  beforeSend: function(){
 							    	ajaxDone ();
@@ -119,14 +119,15 @@ jQuery(document).ready(function($) {
 				    console.log(text);
 				    if (text == "success") {				
 						
-						var msg = "Your have been Subscibed!";
+						var msg = '<i class="glyphicon glyphicon-ok"></i>Your have been Subscibed!';
 						var msgClasses = "animated  green";
 						
 						 updateResponse( msg , msgClasses );
 
 
 				    }  else { 	             
-			            var msg = "opps somthing wrong!";
+			            
+			            var msg = 'opps somthing wrong!';
 			            var msgClasses = "red";
 			               updateResponse( msg , msgClasses );
 
@@ -145,7 +146,7 @@ jQuery(document).ready(function($) {
 			   	$( '#submit' ).hide();
 			   	$(".notification.modalform").removeClass('red green').addClass( msgClasses );
 			   	$(".notification.modalform").slideDown('slow');
-			   	$('.notification.modalform p').text( msg );
+			   	$('.notification.modalform p').html( msg );
 			    
 			}
 

@@ -868,7 +868,7 @@ span a.more:hover, span a.more:focus {
 }
 
 .notification {
-  border: 2px solid #ddd;
+  border: 2px solid #fff;
   border-radius: 6px;
   margin-top: 6px;
   max-width: 500px;
@@ -883,13 +883,16 @@ span a.more:hover, span a.more:focus {
   color: red;
 }
 .notification.green {
-  border-color: green;
+  border-color: #fff;
 }
 .notification.green p {
-  color: green;
+  color: #fff;
 }
 .notification p {
   margin-bottom: 0;
+}
+.notification i {
+  margin-right: 14px;
 }
 
 /*
