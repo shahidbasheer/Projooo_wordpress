@@ -1,0 +1,52 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e7d86e32cd974d89905a0a1bb046ed83",
+    "content-hash": "d22efb313afcff7a7b8d9f279954aab7",
+    "packages": [
+        {
+            "name": "mailerlite/mailerlite_rest_v1",
+            "version": "1.1.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mailerlite/mailerlite-api-php-v1.git",
+                "reference": "c8bc570243052c5556a615267f4fe7a6bec8a096"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mailerlite/mailerlite-api-php-v1/zipball/c8bc570243052c5556a615267f4fe7a6bec8a096",
+                "reference": "c8bc570243052c5556a615267f4fe7a6bec8a096",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "MailerLite": "src/"
+                }
+            },
+            "description": "MailerLite PHP API Wrapper",
+            "keywords": [
+                "mailerlite"
+            ],
+            "support": {
+                "source": "https://github.com/mailerlite/mailerlite-api-php-v1/tree/1.1.8",
+                "issues": "https://github.com/mailerlite/mailerlite-api-php-v1/issues"
+            },
+            "time": "2015-12-17 11:53:14"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

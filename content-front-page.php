@@ -23,6 +23,7 @@
 		?>
 
      	  
-
+		<?php get_template_part( 'includes/modal-form' ); ?>
+		
          <!-- @include html_Moudles/footer.html -->
 <?php get_footer( ); ?>

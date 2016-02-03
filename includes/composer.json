@@ -1,0 +1,11 @@
+{
+    "repositories": [
+      {
+        "url": "git@github.com:mailerlite/mailerlite-api-php-v1.git",
+        "type": "vcs"
+      }
+    ],
+    "require": {
+        "mailerlite/mailerlite_rest_v1": "1.1.*"
+    }
+}

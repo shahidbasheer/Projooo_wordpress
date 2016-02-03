@@ -69,14 +69,14 @@
 		     	   				<h1 class="m-b-10">Get Work Done, Together</h1>
 		     	   				<p class="m-b-20">Simple approach to simple online collaboration and project management.</p>
 		     	   					
-		     	   					<form class="form-inline" action="" method="POST" role="form">
+		     	   					<form class="form-inline" action="contact-form.php" method="POST" role="form" id="subForm-header">
 		     	   						
 		     	   						<div class="row">
 		     	   							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 m-b-20">
 		     	   								
-		     	   									<input name="name" type="text" class="form-control" id="" placeholder="Full Name">
-		     	   									<input name="bus_name" type="text" class="form-control" id="" placeholder="Business Name">
-		     	   									<input name="email" type="email" class="form-control" id="" placeholder="Email Addresss">
+		     	   									<input name="name" type="text" class="form-control" id="" placeholder="Full Name" required="required">
+		     	   									<input name="bus_name" type="text" class="form-control" id="" placeholder="Business Name" required="required">
+		     	   									<input name="email" type="email" class="form-control" id="" placeholder="Email Addresss" required="required">
 
 		     	   							</div>
 		     	   						</div>
@@ -84,6 +84,10 @@
 		     	   					
 		     	   						<button type="submit" class="btn btn-green">Request for Early Access</button>
 		     	   					</form>
+
+		     	   					<div class="notification">
+    									<p></p>
+    								</div>
 		     	   			</div>
 	     	   			</div>
 	     	   		</div>

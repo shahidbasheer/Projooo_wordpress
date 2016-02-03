@@ -867,6 +867,30 @@ span a.more:hover, span a.more:focus {
   text-align: center;
 }
 
+.notification {
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  margin-top: 6px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.notification.red {
+  border-color: red;
+}
+.notification.red p {
+  color: red;
+}
+.notification.green {
+  border-color: green;
+}
+.notification.green p {
+  color: green;
+}
+.notification p {
+  margin-bottom: 0;
+}
+
 /*
  * ----------------------------------------------------------------------------------------
  * Sidebar styles.
