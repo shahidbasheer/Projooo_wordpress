@@ -888,6 +888,18 @@ span a.more:hover, span a.more:focus {
 .notification.green p {
   color: #fff;
 }
+.notification.blog-form.red {
+  border-color: red;
+}
+.notification.blog-form.red p {
+  color: red;
+}
+.notification.blog-form.green {
+  border-color: green;
+}
+.notification.blog-form.green p {
+  color: green;
+}
 .notification p {
   margin-bottom: 0;
 }

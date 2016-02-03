@@ -44,11 +44,12 @@ class Projo_search_Widget extends WP_Widget {
                       <div class="form-group">
                            <input class="form-control" name="email">
                       </div>
-                      <a href="" class="btn btn-green" id="blog-sub-form-btn"><?php echo $instance['buttonLabel']; ?></a>   
-                      <div class="notification blog-form">
+                      <button type="submit" href="" class="btn btn-green" id="blog-sub-form-btn"><?php echo $instance['buttonLabel']; ?></button>   
+                      
+                 </form>
+                 <div class="notification blog-form">
                                         <p></p>
                     </div>
-                 </form>
         	</div> <!-- search-box -->
          <?php 
 
