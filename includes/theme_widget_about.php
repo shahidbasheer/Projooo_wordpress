@@ -49,7 +49,7 @@ class Projo_about_Widget extends WP_Widget {
                  <h5 class="blue-text"><?php echo esc_textarea( $instance['heading_about_us'] ); ?></h5>
                 
                  <p><?php echo esc_textarea( $instance['about_us_text'] ); ?></p>
-                 <a href="" class="btn btn-green">Request for Early Access</a>
+                 <a href="" class="btn btn-green" data-toggle="modal" data-target="#modal-form">Request for Early Access</a>
             </div>
 
          <?php 
