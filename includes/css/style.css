@@ -874,6 +874,7 @@ span a.more:hover, span a.more:focus {
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
+  display: none;
 }
 .notification.red {
   border-color: red;
