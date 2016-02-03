@@ -69,7 +69,7 @@
 		     	   				<h1 class="m-b-10">Get Work Done, Together</h1>
 		     	   				<p class="m-b-20">Simple approach to simple online collaboration and project management.</p>
 		     	   					
-		     	   					<form class="form-inline" action="contact-form.php" method="POST" role="form" id="subForm-header">
+		     	   					<form class="form-inline" action="<?php echo  theme_root . '/'; ?>includes/contact-form.php" method="POST" role="form" id="subForm-header">
 		     	   						
 		     	   						<div class="row">
 		     	   							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 m-b-20">
