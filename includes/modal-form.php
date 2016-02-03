@@ -21,8 +21,8 @@
     							<input  class="btn btn-green m-t-20 center-block" type="submit" value="Request for Early Access" id="submit">	
     							
 
-    							<div class="notification">
-    									<p>Thank you For contacting us</p>
+    							<div class="notification modalform">
+    									<p></p>
     							</div>
     							
      	  	        	</div>
