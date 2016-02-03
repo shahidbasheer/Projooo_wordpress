@@ -19,7 +19,7 @@ jQuery(document).ready(function($) {
 		function submitForm () {
 			$.ajax({
 					  type: 'POST',
-					  url: 'contact-form.php',
+					  url: templateDir + '/includes/contact-form.php',
 					  data: myform.serialize(),
 					  beforeSend: function(){
 							    	ajaxDone ();
@@ -85,7 +85,7 @@ jQuery(document).ready(function($) {
 		function submitForm_2 () {
 			$.ajax({
 					  type: 'POST',
-					  url: 'contact-form.php',
+					  url: templateDir + '/includes/contact-form.php',
 					  data: myform.serialize(),
 					  beforeSend: function(){
 							    	ajaxDone ();

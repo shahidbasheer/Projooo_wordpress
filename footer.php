@@ -55,3 +55,7 @@
 	display: inline-block;
 }
 </style>
+
+ <script>
+        var templateDir = "<?php bloginfo('template_directory') ?>";
+    </script>
