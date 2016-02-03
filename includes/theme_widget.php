@@ -40,10 +40,15 @@ class Projo_search_Widget extends WP_Widget {
         	<div class="search-box">
                 <!-- Subscribe to Our Newsletter and Other tih5es for Business -->
         	     <h5><?php echo $instance['heading']; ?></h5>
-        	     <div class="form-group">
-        	          <input class="form-control">
-        	     </div>
-        	     <a href="" class="btn btn-green"><?php echo $instance['buttonLabel']; ?></a>
+        	     <form id="blog-sub-form" action="<?php echo  theme_root . '/'; ?>includes/contact-form-blog.php" method="POST">
+                      <div class="form-group">
+                           <input class="form-control" name="email">
+                      </div>
+                      <a href="" class="btn btn-green" id="blog-sub-form-btn"><?php echo $instance['buttonLabel']; ?></a>   
+                      <div class="notification blog-form">
+                                        <p></p>
+                    </div>
+                 </form>
         	</div> <!-- search-box -->
          <?php 
 
