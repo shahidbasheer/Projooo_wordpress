@@ -310,7 +310,7 @@ p {
 
 @media (min-width: 767px) {
   .navbar {
-    padding: 0 0 20px;
+    padding: 0;
     border-bottom: none;
     letter-spacing: 1px;
     background: transparent;
@@ -379,9 +379,14 @@ section.intro {
   font-weight: 700;
   margin-top: 10px;
   color: #fff;
+  font-size: 38px;
 }
 .headwrap__blue p {
   font-weight: bold;
+  font-size: 22px;
+  max-width: 564px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .headwrap__blue .btn {
   padding: 14px 38px;
@@ -450,11 +455,11 @@ section.intro {
 .anotherintro {
   font-size: 14px;
   text-align: center;
-  max-width: 800px;
+  max-width: 900px;
 }
 .anotherintro p {
   font-family: 'AvenirLTStd-Book';
-  font-size: 18px;
+  font-size: 22px;
 }
 .anotherintro h2 {
   margin-bottom: 30px;
@@ -489,9 +494,11 @@ section.intro {
   max-width: 320px;
   font-weight: bold;
   line-height: 1.4;
+  font-size: 38px;
 }
 .less-confision p {
   max-width: 300px;
+  font-size: 22px;
 }
 .less-confision ul li {
   font-weight: bold;
@@ -513,6 +520,10 @@ section.intro {
   border-top: 1px solid #d4d4d4;
   border-bottom: 1px solid #d4d4d4;
   text-align: center;
+}
+.cta h4 {
+  text-align: left;
+  font-weight: bold;
 }
 .cta h2 {
   margin-bottom: 20px;
@@ -905,6 +916,10 @@ span a.more:hover, span a.more:focus {
 }
 .notification i {
   margin-right: 14px;
+}
+
+.btn-green {
+  font-weight: bold;
 }
 
 /*
