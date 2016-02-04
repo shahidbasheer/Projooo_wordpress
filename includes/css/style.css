@@ -540,6 +540,7 @@ section.intro {
   text-align: left;
   font-weight: bold;
   padding-left: 14px;
+  max-width: 586px;
 }
 .cta h2 {
   margin-bottom: 20px;
@@ -563,7 +564,7 @@ section.intro {
 }
 .cta p {
   font-family: 'AvenirLTStd-Book';
-  font-size: 16px;
+  font-size: 26px;
 }
 .cta p.p-t-b {
   padding: 16px 0;
