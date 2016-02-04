@@ -60,16 +60,16 @@
 
      	  
 
-     	   <section class="container-projoo cta-2">
-     	   	<h2 class="center-block m-b-30">Try Projoo -is it time to five your project the love they deserve?</h2>
-			<img src="<?php echo  theme_root . '/'; ?>includes/img/arrow-left-bottom.png" class="arrow hidden-xs">
-			<button type="button" class="btn btn-green">Request for Early Access</button>
-     	   	
-     	   </section>
+     	    <section class="container-projoo cta-2">
+               <h2 class="center-block m-b-30">Try Proojo – Maximum visibility with minimum clutter of tasks.</h2>
+               <img src="http://www.proojo.com/wp-content/themes/projoo_theme/includes/img/arrow-left-bottom.png" class="arrow hidden-xs">
+               <button type="button" class="btn btn-green" data-toggle="modal" data-target="#modal-form">Request for Early Access</button>
+               
+             </section>
 
      	  </div>
 	
-     	  
+     	  <?php get_template_part( 'includes/modal-form' ); ?>
 </div>
 </div>
          <!-- @include html_Moudles/footer.html -->
