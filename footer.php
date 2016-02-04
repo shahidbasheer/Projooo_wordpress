@@ -43,7 +43,7 @@
 	  </footer>
 
 	  <div class="text-center social-icons-footer">
-	  	<?php echo do_shortcode( '[social4i size="small""]' ); ?>
+	  	<?php echo do_shortcode( '[social4i size="small"]' ); ?>
 	  </div>
 
 </div>
