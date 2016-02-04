@@ -505,6 +505,7 @@ section.intro {
   max-width: 300px;
   font-size: 22px;
   margin-top: 10px;
+  line-height: 1.4;
 }
 .less-confision ul li {
   font-weight: bold;
