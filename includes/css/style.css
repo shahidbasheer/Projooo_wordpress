@@ -557,10 +557,14 @@ section.intro {
   font-weight: normal;
   color: #000;
   text-decoration: none;
+  line-height: 1.8;
 }
 .cta ul li a:hover, .cta ul li a:focus {
   text-decoration: none;
   color: #000;
+}
+.cta ul li a i {
+  margin-right: 8px;
 }
 .cta p {
   font-family: 'AvenirLTStd-Book';
