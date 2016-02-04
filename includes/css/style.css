@@ -527,6 +527,7 @@ section.intro {
 .cta h4 {
   text-align: left;
   font-weight: bold;
+  padding-left: 14px;
 }
 .cta h2 {
   margin-bottom: 20px;
