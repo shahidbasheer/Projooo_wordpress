@@ -437,6 +437,9 @@ section.intro {
 .headwrap__blue.about-us {
   padding: 40px 0 40px;
 }
+.headwrap__blue .btn {
+  font-weight: bold;
+}
 
 .intro {
   font-size: 14px;
@@ -598,6 +601,7 @@ section.intro {
 }
 .cta-2 .btn {
   padding: 14px 38px;
+  font-weight: bold;
 }
 .cta-2 .arrow {
   position: absolute;
