@@ -54,16 +54,7 @@
 </body>
 </html>
 
-<style>
-	.inline-block {
-	display: inline-block;
-}
-.social-icons-footer .social4i:first-child { 
-		max-width: 500px;
-		margin-left: auto;
-		margin-right: auto; 
-} 
-</style>
+
 
  <script>
 
