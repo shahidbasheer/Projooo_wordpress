@@ -949,6 +949,10 @@ span a.more:hover, span a.more:focus {
   font-weight: bold;
 }
 
+.about-us-content .anotherintro h2 {
+  font-weight: bold;
+}
+
 /*
  * ----------------------------------------------------------------------------------------
  * Sidebar styles.
