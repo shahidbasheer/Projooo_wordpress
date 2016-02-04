@@ -42,7 +42,7 @@
  	   	</ul> -->
 	  </footer>
 
-	  <div class="text-center">
+	  <div class="text-center social-icons-footer">
 	  	<?php echo do_shortcode( '[social4i size="small""]' ); ?>
 	  </div>
 
@@ -58,8 +58,14 @@
 	.inline-block {
 	display: inline-block;
 }
+.social-icons-footer .social4i:first-child { 
+		max-width: 500px;
+		margin-left: auto;
+		margin-right: auto; 
+} 
 </style>
 
  <script>
+
         var templateDir = "<?php bloginfo('template_directory') ?>";
     </script>
