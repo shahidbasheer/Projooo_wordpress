@@ -29,7 +29,7 @@
  		)
  	); ?>
 
- 	<span>Contact (855) 377-0335  © 2016 Projoo LLC</span>   			
+ 	<span>Contact Us ( (845) 233-6563 ) © 2016 Proojo.com - 3979 Albany Post Road #615 Hyde Park, NY 12538 USA</span>   			
 
  	   	<!-- <ul class="list-inline">
 
