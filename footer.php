@@ -42,6 +42,10 @@
  	   	</ul> -->
 	  </footer>
 
+	  <p>
+	  	<?php echo do_shortcode( '[social4i size="small" align="float-none"]' ); ?>
+	  </p>
+
 </div>
     <!-- /wrap -->
 
