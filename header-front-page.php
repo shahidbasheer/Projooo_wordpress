@@ -66,8 +66,8 @@
 	     	   		<div class="container-projoo">
 	     	   			<div class="row">
 		     	   			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-		     	   				<h1 class="m-b-10">Get Work Done, Together</h1>
-		     	   				<p class="m-b-20">Simple approach to simple online collaboration and project management.</p>
+		     	   				<h1 class="m-b-10">One team, one dream, one vision</h1>
+		     	   				<p class="m-b-20">Best tool for small size business, helps deliver good performance, thereby increasing productivity.</p>
 		     	   					
 		     	   					<form class="form-inline" action="<?php echo  theme_root . '/'; ?>includes/contact-form.php" method="POST" role="form" id="subForm-header">
 		     	   						
