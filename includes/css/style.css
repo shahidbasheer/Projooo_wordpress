@@ -381,6 +381,14 @@ section.intro {
   color: #fff;
   font-size: 38px;
 }
+@media (max-width: 767px) {
+  .headwrap__blue h1 {
+    font-size: 34px;
+  }
+  .headwrap__blue p {
+    font-size: 18px;
+  }
+}
 .headwrap__blue p {
   font-weight: bold;
   font-size: 22px;
