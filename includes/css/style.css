@@ -497,12 +497,14 @@ section.intro {
 .less-confision h2 {
   max-width: 320px;
   font-weight: bold;
-  line-height: 1.4;
+  line-height: 1.1;
   font-size: 38px;
+  margin-bottom: 4px;
 }
 .less-confision p {
   max-width: 300px;
   font-size: 22px;
+  margin-top: 10px;
 }
 .less-confision ul li {
   font-weight: bold;
