@@ -568,6 +568,7 @@ section.intro {
 }
 .cta p.p-t-b {
   padding: 16px 0;
+  padding-bottom: 0;
 }
 .cta .cta-price {
   background: #fff;
