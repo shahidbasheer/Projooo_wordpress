@@ -613,6 +613,7 @@ section.intro {
   color: #0072bc;
   max-width: 501px;
   font-weight: bold;
+  line-height: 1.5;
 }
 .cta-2 .btn {
   padding: 14px 38px;
