@@ -24,7 +24,7 @@
                          <p class="no-margin">Unlimited Project / 25 Users ( 1 $ / active user / month )</p>
                           <p class="m-b-40">After a 60 days trial period.</p>
 
-                          <p>We also provide yearly plans, or for large companies:  <a href="">Contact Us</a></p>
+                          <p>We also provide yearly plans, or for large companies:  <a href="http://www.proojo.com/contact-us/">Contact Us</a></p>
 
 
 
