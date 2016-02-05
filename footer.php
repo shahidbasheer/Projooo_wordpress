@@ -29,7 +29,7 @@
  		)
  	); ?>
 
- 	<span>Contact Us ( (845) 233-6563 ) © 2016 Proojo.com - 3979 Albany Post Road #615 Hyde Park, NY 12538 USA</span>   			
+ 	<span>( (845) 233-6563 ) © 2016 Proojo.com - 3979 Albany Post Road #615 Hyde Park, NY 12538 USA</span>   			
 
  	   	<!-- <ul class="list-inline">
 
