@@ -15,7 +15,8 @@
 
                          
                          <div class="intoro">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, illum.</p>
+                              <p>Contact us. We Love Your Feedback .</p>
+                              <p class="m-b-20">We’re always happy to help! feel free to send us a message anytime.</p>
                               <ul class="list-inline">
                                    <li><i class="glyphicon glyphicon-envelope"></i>example@example.com</li>
                                    <li><i class="glyphicon glyphicon-earphone"></i>+0978797498273498</li>
