@@ -981,7 +981,7 @@ span a.more:hover, span a.more:focus {
 }
 
 .contact-us p {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .contact-us .intoro {
   margin: 0 auto;
