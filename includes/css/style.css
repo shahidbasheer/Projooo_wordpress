@@ -970,11 +970,14 @@ span a.more:hover, span a.more:focus {
   text-align: center;
   border: 1px solid #ddd;
   border-radius: 2px;
-  max-width: 800px;
+  max-width: 868px;
   padding: 40px;
   font-size: 16px;
   margin: 0 auto;
   margin-bottom: 20px;
+}
+.contact-us__address p {
+  margin-bottom: 0;
 }
 
 .contact-us p {
@@ -983,7 +986,7 @@ span a.more:hover, span a.more:focus {
 .contact-us .intoro {
   margin: 0 auto;
   margin-bottom: 20px;
-  max-width: 800px;
+  max-width: 868px;
 }
 .contact-us .intoro ul li {
   border-right: 1px solid #ddd;
@@ -997,8 +1000,48 @@ span a.more:hover, span a.more:focus {
 }
 
 .contact-us__form {
-  max-width: 800px;
+  max-width: 864px;
   margin: 0 auto;
+}
+
+.wpcf7-form input {
+  height: 36px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.wpcf7-form textarea {
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.wpcf7-form .wpcf7-submit {
+  background: #3498db;
+  color: #fff;
+  width: 100px;
+}
+.wpcf7-form .wpcf7-submit:hover {
+  background: #2383c4;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.wpcf7-form .wpcf7-submit:active {
+  color: #fff;
+  background: #16527a;
 }
 
 /*
@@ -1173,6 +1216,43 @@ span a.more:hover, span a.more:focus {
 }
 .btn-green .badge {
   color: #3edd00;
+  background-color: #fff;
+}
+
+.btn-blue {
+  color: #fff;
+  background-color: #0090cf;
+  border-color: #0090cf;
+}
+.btn-blue:focus, .btn-blue.focus {
+  color: #fff;
+  background-color: #006d9c;
+  border-color: #003750;
+}
+.btn-blue:hover {
+  color: #fff;
+  background-color: #006d9c;
+  border-color: #006592;
+}
+.btn-blue:active, .btn-blue.active, .open > .btn-blue.dropdown-toggle {
+  color: #fff;
+  background-color: #006d9c;
+  border-color: #006592;
+}
+.btn-blue:active:hover, .btn-blue:active:focus, .btn-blue:active.focus, .btn-blue.active:hover, .btn-blue.active:focus, .btn-blue.active.focus, .open > .btn-blue.dropdown-toggle:hover, .open > .btn-blue.dropdown-toggle:focus, .open > .btn-blue.dropdown-toggle.focus {
+  color: #fff;
+  background-color: #005478;
+  border-color: #003750;
+}
+.btn-blue:active, .btn-blue.active, .open > .btn-blue.dropdown-toggle {
+  background-image: none;
+}
+.btn-blue.disabled, .btn-blue.disabled:hover, .btn-blue.disabled:focus, .btn-blue.disabled.focus, .btn-blue.disabled:active, .btn-blue.disabled.active, .btn-blue[disabled], .btn-blue[disabled]:hover, .btn-blue[disabled]:focus, .btn-blue[disabled].focus, .btn-blue[disabled]:active, .btn-blue[disabled].active, fieldset[disabled] .btn-blue, fieldset[disabled] .btn-blue:hover, fieldset[disabled] .btn-blue:focus, fieldset[disabled] .btn-blue.focus, fieldset[disabled] .btn-blue:active, fieldset[disabled] .btn-blue.active {
+  background-color: #0090cf;
+  border-color: #0090cf;
+}
+.btn-blue .badge {
+  color: #0090cf;
   background-color: #fff;
 }
 

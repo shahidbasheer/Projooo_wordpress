@@ -17,8 +17,8 @@
                          <div class="intoro">
                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, illum.</p>
                               <ul class="list-inline">
-                                   <li>example@example.com</li>
-                                   <li>+0978797498273498</li>
+                                   <li><i class="glyphicon glyphicon-envelope"></i>example@example.com</li>
+                                   <li><i class="glyphicon glyphicon-earphone"></i>+0978797498273498</li>
                               </ul>
                          </div>
 
