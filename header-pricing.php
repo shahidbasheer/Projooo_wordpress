@@ -63,7 +63,7 @@
 	<div class="container-projoo">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<h1 class="m-b-10">About Us</h1>		     	   					
+				<h1 class="m-b-10">Pricing</h1>		     	   					
 			</div>
 		</div>
 	</div>
