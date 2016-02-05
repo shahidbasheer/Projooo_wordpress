@@ -23,14 +23,16 @@
                          </div>
 
 
-                         <div class="contact-us__address">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, illum.</p>
-                         </div>
                         
-                           <div class="contact-us__form">
+                           <div class="contact-us__form m-b-30">
                                 <?php the_content(); ?>
                            </div>
                          
+
+                          <div class="contact-us__address">
+                              <p>Proojo.co - 3793 Albany Post Road <br> #615 Hyde Park, NY 12538 USA</p>
+                         </div>
+                        
                            
 
                             <section class="container-projoo cta-2">
