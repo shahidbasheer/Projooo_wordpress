@@ -981,9 +981,16 @@ span a.more:hover, span a.more:focus {
 }
 
 .contact-us .intoro {
+  text-align: center;
   margin: 0 auto;
   margin-bottom: 40px;
   max-width: 868px;
+}
+.contact-us .intoro .font-32 {
+  font-size: 32px;
+}
+.contact-us .intoro .font-18 {
+  font-size: 18px;
 }
 .contact-us .intoro ul li {
   border-right: 1px solid #ddd;

@@ -15,11 +15,11 @@
 
                          
                          <div class="intoro">
-                              <p>Contact us. We Love Your Feedback .</p>
-                              <p class="m-b-20">We’re always happy to help! feel free to send us a message anytime.</p>
+                              <p class="font-32">Contact Us. We Love Your Feedback .</p>
+                              <p class="m-b-20 font-18">We’re always happy to help! feel free to send us a message anytime.</p>
                               <ul class="list-inline">
-                                   <li><i class="glyphicon glyphicon-envelope"></i>example@example.com</li>
-                                   <li><i class="glyphicon glyphicon-earphone"></i>+0978797498273498</li>
+                                   <li><i class="glyphicon glyphicon-envelope"></i>web@proojo.com </li>
+                                   <li><i class="glyphicon glyphicon-earphone"></i> (845) 233-6563</li>
                               </ul>
                          </div>
 
