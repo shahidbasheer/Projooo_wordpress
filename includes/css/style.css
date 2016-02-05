@@ -130,6 +130,10 @@ p {
   margin-bottom: 80px  !important;
 }
 
+.m-b-100 {
+  margin-bottom: 80px  !important;
+}
+
 .m-t-10 {
   margin-top: 10px  !important;
 }
@@ -1058,6 +1062,28 @@ span a.more:hover, span a.more:focus {
 .wpcf7-form .wpcf7-submit:active {
   color: #fff;
   background: #16527a;
+}
+
+.pricing {
+  text-align: center;
+}
+.pricing .price_price p {
+  font-weight: bold;
+  font-size: 36px;
+}
+.pricing a {
+  color: #000;
+  text-decoration: underline;
+}
+.pricing a:hover, .pricing a:focus {
+  color: #000;
+}
+
+.price_feature h3 {
+  color: #0090cf;
+}
+.price_feature ul li {
+  line-height: 1.8;
 }
 
 /*
