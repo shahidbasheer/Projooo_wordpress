@@ -1021,6 +1021,7 @@ span a.more:hover, span a.more:focus {
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 .wpcf7-form textarea {
+  width: 50%;
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
