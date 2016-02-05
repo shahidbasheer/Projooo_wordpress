@@ -61,4 +61,4 @@
         var templateDir = "<?php bloginfo('template_directory') ?>";
     </script>
 
-    <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_embed wistia_async_b1k74nvlyu" style="height:332px;width:540px">&nbsp;</div>
+    
