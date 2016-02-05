@@ -966,6 +966,33 @@ span a.more:hover, span a.more:focus {
   margin-bottom: 25px;
 }
 
+.contact-us__address {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  max-width: 700px;
+  padding: 40px;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.contact-us .intoro {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: 700px;
+}
+.contact-us .intoro ul li {
+  border-right: 1px solid #ddd;
+  padding-right: 20px;
+  color: #0090cf;
+}
+
+.contact-us__form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 /*
  * ----------------------------------------------------------------------------------------
  * Sidebar styles.
