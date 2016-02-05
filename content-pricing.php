@@ -7,7 +7,7 @@
 ?>
 
         <!-- @include html_Moudles/header.html -->
-
+            <div class="seprater-bottom-70"></div>
 			           <div class="pricing">
                                
                           <h2>Simple and Affordable Price</h2>
