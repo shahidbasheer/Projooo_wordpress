@@ -1078,6 +1078,9 @@ span a.more:hover, span a.more:focus {
 .pricing a:hover, .pricing a:focus {
   color: #000;
 }
+.pricing .social-icons-footer .social4i:first-child {
+  margin-left: 32%;
+}
 
 .price_feature h3 {
   color: #0090cf;
