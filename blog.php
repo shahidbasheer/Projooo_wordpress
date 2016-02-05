@@ -39,7 +39,7 @@ get_header(); ?>
 		 
 
 	<?php endif; ?>
-	<?php get_template_part( 'includes/modal-form' ); ?>
+	
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
 
