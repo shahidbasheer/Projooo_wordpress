@@ -970,13 +970,16 @@ span a.more:hover, span a.more:focus {
   text-align: center;
   border: 1px solid #ddd;
   border-radius: 2px;
-  max-width: 700px;
+  max-width: 800px;
   padding: 40px;
   font-size: 16px;
   margin: 0 auto;
   margin-bottom: 20px;
 }
 
+.contact-us p {
+  margin-bottom: 20px;
+}
 .contact-us .intoro {
   margin: 0 auto;
   margin-bottom: 20px;
@@ -984,8 +987,13 @@ span a.more:hover, span a.more:focus {
 }
 .contact-us .intoro ul li {
   border-right: 1px solid #ddd;
+  padding-left: 10px;
   padding-right: 20px;
   color: #0090cf;
+  font-size: 14px;
+}
+.contact-us .intoro ul li i {
+  margin-right: 13px;
 }
 
 .contact-us__form {
