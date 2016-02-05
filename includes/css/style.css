@@ -980,13 +980,13 @@ span a.more:hover, span a.more:focus {
   margin-bottom: 0;
 }
 
-.contact-us p {
-  margin-bottom: 0px;
-}
 .contact-us .intoro {
   margin: 0 auto;
   margin-bottom: 20px;
   max-width: 868px;
+}
+.contact-us .intoro p {
+  margin-bottom: 20px;
 }
 .contact-us .intoro ul li {
   border-right: 1px solid #ddd;
