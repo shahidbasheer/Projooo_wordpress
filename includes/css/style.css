@@ -1004,6 +1004,9 @@ span a.more:hover, span a.more:focus {
   margin: 0 auto;
 }
 
+.wpcf7-form p {
+  margin-bottom: 14px;
+}
 .wpcf7-form input {
   height: 36px;
   padding: 6px 12px;
