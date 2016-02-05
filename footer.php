@@ -61,4 +61,4 @@
         var templateDir = "<?php bloginfo('template_directory') ?>";
     </script>
 
-    
+    <?php get_template_part( 'includes/modal-form' ); ?>
