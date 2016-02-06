@@ -33,7 +33,7 @@
                               </div>
 
                                 <div class="post-cta">
-                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ab voluptatibus perspiciatis possimus, voluptates dolor eos error. Voluptas libero, repellendus!</p>
+                                     <p>Proojo is an onlne project management tool for small scale business which helps plan work and keep track of work progress, from discussions, assigned task, to do list and so on, all in one place.</p>
                                      <button type="button" class="btn btn-green" data-toggle="modal" data-target="#modal-form">Request for Early Access</button>
                                   </div>
 
