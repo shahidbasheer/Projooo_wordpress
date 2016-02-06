@@ -741,6 +741,24 @@ article.single-post.archive footer.entry-meta {
   border-bottom: 1px solid #d6d6d6;
 }
 
+.post-cta {
+  max-width: 648px;
+  padding: 32px 46px;
+  background: #f6faff;
+  border: 1px solid #00408c;
+  text-align: center;
+}
+.post-cta p {
+  color: #00408c;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.post-cta .btn {
+  padding: 8px 10px;
+  max-width: 238px;
+  width: 100%;
+}
+
 .search-box {
   border: 1px solid #8dc1ff;
   background: #fcfdff;
@@ -1118,6 +1136,14 @@ span a.more:hover, span a.more:focus {
 
 .pinterest {
   color: #000 !important;
+}
+
+a.back-tp-home-page {
+  color: #00408c;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 /*
