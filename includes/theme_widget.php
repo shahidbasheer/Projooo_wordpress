@@ -42,7 +42,7 @@ class Projo_search_Widget extends WP_Widget {
         	     <h5><?php echo $instance['heading']; ?></h5>
         	     <form id="blog-sub-form" action="<?php echo  theme_root . '/'; ?>includes/contact-form-blog.php" method="POST">
                       <div class="form-group">
-                           <input class="form-control" name="email">
+                           <input class="form-control" name="email" required="required">
                       </div>
                       <button type="submit" href="" class="btn btn-green" id="blog-sub-form-btn"><?php echo $instance['buttonLabel']; ?></button>   
                       
