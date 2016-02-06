@@ -128,7 +128,7 @@ class Projo_social_Widget extends WP_Widget {
 
                  <p>
                     <label for="<?php echo $this->get_field_id( 'linkdin_username' ); ?>"><?php _e('Linkin User Name', '_tk'); ?></label> 
-                    <input class="widefat m-t-b" type="text" id="<?php echo $this->get_field_id('linkdin_username'); ?>" name="<?php echo $this->get_field_name('linkdin_username'); ?>" value="<?php echo esc_attr( $linkdin_username );?>" placeholder="G+ Username">                 
+                    <input class="widefat m-t-b" type="text" id="<?php echo $this->get_field_id('linkdin_username'); ?>" name="<?php echo $this->get_field_name('linkdin_username'); ?>" value="<?php echo esc_attr( $linkdin_username );?>" placeholder="Linkin Username">                 
                 </p>
                 
                  <p>
