@@ -33,7 +33,7 @@
                               </div>
 
                                 <div class="post-cta">
-                                     <p>Proojo is an onlne project management tool for small scale business which helps plan work and keep track of work progress, from discussions, assigned task, to do list and so on, all in one place.</p>
+                                     <p><?php get_post_custom_values('last-para', $post_id); ?></p>
                                      <button type="button" class="btn btn-green" data-toggle="modal" data-target="#modal-form">Request for Early Access</button>
                                   </div>
 
