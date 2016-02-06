@@ -1183,6 +1183,10 @@ a.back-tp-home-page {
   .navbar-header {
     margin-bottom: 10px;
   }
+
+  .intro img {
+    margin-bottom: -30px;
+  }
 }
 @media (max-width: 767px) {
   .wistia_embed.wistia_async_b1k74nvlyu {
