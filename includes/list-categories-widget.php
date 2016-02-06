@@ -20,7 +20,7 @@ class list_categories_widget extends WP_Widget {
 		extract( $args );
 		$title 		= apply_filters('widget_title', $instance['title']); // the widget title
 		$number 	= $instance['number']; // the number of categories to show
-		$taxonomy 	= $instance['category']; // the taxonomy to display
+		$taxonomy 	= $instance['taxonomy']; // the taxonomy to display
 				
 		$args = array(
 			'number' 	=> intval( $number),
@@ -29,7 +29,7 @@ class list_categories_widget extends WP_Widget {
 		
 		// retrieves an array of categories or taxonomy terms
 		$cats = get_categories($args);
-		
+		var_dump($cats);
 		?>
 			  <div class="catagries">
 			     <header>
@@ -41,7 +41,7 @@ class list_categories_widget extends WP_Widget {
 							
 								<?php foreach($cats as $cat) { ?>
 										
-										<?php  var_dump(get_term_link($cat->slug, $taxonomy));  ?>
+										<?php  //var_dump(get_term_link($cat->slug, $taxonomy));  ?>
 										<?php $catlist = get_term_link($cat->slug, $taxonomy); ?>
 										
 										<?php if  ( !is_wp_error(  $catlist  ) ): ?>
