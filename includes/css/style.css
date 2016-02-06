@@ -690,6 +690,8 @@ article.single-post .page-title {
 article.single-post .page-title a {
   color: #000;
   text-decoration: none;
+  font-weight: 700px;
+  line-height: 38px;
 }
 article.single-post .page-title a:hover, article.single-post .page-title a:focus {
   color: #000;
@@ -718,6 +720,9 @@ article.single-post .entry-content-thumbnail {
 }
 article.single-post .entry-content {
   margin-bottom: 38px;
+}
+article.single-post .entry-content p {
+  line-height: 32px;
 }
 article.single-post.archive .entry-content {
   margin-bottom: 28px;
