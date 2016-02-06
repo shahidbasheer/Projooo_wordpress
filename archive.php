@@ -16,7 +16,7 @@ get_header(); ?>
 
 			<header class="container-projoo">
 				<div class="col-sm-12">
-					<h1 class="page-title" style="padding: 0 18px;">
+					<h1 class="page-title" style="">
 						<?php
 							if ( is_category() ) :
 								single_cat_title();
