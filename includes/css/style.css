@@ -690,7 +690,7 @@ article.single-post .page-title {
 article.single-post .page-title a {
   color: #000;
   text-decoration: none;
-  font-weight: 700px;
+  font-weight: 700;
   line-height: 38px;
 }
 article.single-post .page-title a:hover, article.single-post .page-title a:focus {
