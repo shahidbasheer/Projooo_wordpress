@@ -20,7 +20,7 @@ class list_categories_widget extends WP_Widget {
 		extract( $args );
 		$title 		= apply_filters('widget_title', $instance['title']); // the widget title
 		$number 	= $instance['number']; // the number of categories to show
-		$taxonomy 	= $instance['taxonomy']; // the taxonomy to display
+		$taxonomy 	= 'category'; // the taxonomy to display
 				
 		$args = array(
 			'number' 	=> intval( $number),
