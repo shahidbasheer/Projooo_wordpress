@@ -6,7 +6,7 @@
 
 
                           <article class="single-post">
-                               <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="back-tp-home-page">Back to Blog Home Page</a>
+                               <a href="<?php echo esc_url( home_url( '/' ) ); ?>/blog" class="back-tp-home-page">Back to Blog Home Page</a>
                               <header>
 
                               	<?php the_title( sprintf( '<h2 class="page-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>

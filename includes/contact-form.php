@@ -11,6 +11,15 @@
        $bus_name = htmlentities($_POST['bus_name']);
        
 
+         if (empty($name) || empty($email) || empty($bus_name) ) {
+           $success = false;
+            return $success;
+          }
+
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+             $success = false;
+              return $success; 
+          }
 
       $ML_Subscribers = new MailerLite\Subscribers( '934f72f4e4cc944c54f3f1d7942f979a' );
 
