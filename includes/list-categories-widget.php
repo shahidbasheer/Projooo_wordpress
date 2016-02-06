@@ -44,7 +44,7 @@ class list_categories_widget extends WP_Widget {
 										<?php  //var_dump(get_term_link($cat->slug, $taxonomy));  ?>
 										<?php $catlist = get_term_link($cat->slug, $taxonomy); ?>
 										
-										<?php if  ( !is_wp_error(  $catlist  ) ): ?>
+										<?php if  ( is_wp_error(  $catlist  ) ): ?>
 										
 											<li><a href="<?php echo get_term_link($cat->slug, $taxonomy); ?>" title="<?php sprintf( __( "View all posts in %s" ), $cat->name ); ?>"><?php echo $cat->name ?> (<span class="count"><?php echo $cat->category_count; ?></span>)</a></li>
 										
