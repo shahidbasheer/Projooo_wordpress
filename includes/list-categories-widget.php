@@ -67,7 +67,7 @@ class list_categories_widget extends WP_Widget {
 	/** @see WP_Widget::update -- do not rename this */
 	function update($new_instance, $old_instance) {
 		$instance = $old_instance;
-		$title = ! empty( $instance['title'] ) ? $instance['title'] : __( 'Other Categories', '_tk' );
+		$instance['title'] = ! empty( $instance['title'] ) ? $instance['title'] : __( 'Other Categories', '_tk' );
 		
 		$instance['number'] = strip_tags($new_instance['number']);
 		
@@ -84,11 +84,11 @@ class list_categories_widget extends WP_Widget {
         ?>
          <p>
           <label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:'); ?></label>
-          <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" />
+          <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $instance['title']; ?>" />
         </p>
 		<p>
           <label for="<?php echo $this->get_field_id('number'); ?>"><?php _e('Number of categories to display'); ?></label>
-          <input class="widefat" id="<?php echo $this->get_field_id('number'); ?>" name="<?php echo $this->get_field_name('number'); ?>" type="text" value="<?php echo $number; ?>" />
+          <input class="widefat" id="<?php echo $this->get_field_id('number'); ?>" name="<?php echo $this->get_field_name('number'); ?>" type="text" value="<?php echo $instance['number']; ?>" />
         </p>
 		
         <?php
