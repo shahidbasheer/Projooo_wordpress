@@ -40,7 +40,7 @@ class list_categories_widget extends WP_Widget {
 
 							
 								<?php foreach($cats as $cat) { ?>
-										<?php var_dump($cat); ?>
+										<?php //var_dump($cat); ?>
 										<?php  //var_dump(get_term_link($cat->slug, $taxonomy));  ?>
 										<?php $catlist = get_term_link($cat->slug, $taxonomy); ?>
 										
