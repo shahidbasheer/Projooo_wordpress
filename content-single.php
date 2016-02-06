@@ -33,7 +33,7 @@
                               </div>
 
                                 <div class="post-cta">
-                                     <p><?php get_post_custom_values('last-para', $post_id); ?></p>
+                                     <p><?php echo get_post_custom_values('last-para', $post_id); ?></p>
                                      <button type="button" class="btn btn-green" data-toggle="modal" data-target="#modal-form">Request for Early Access</button>
                                   </div>
 
