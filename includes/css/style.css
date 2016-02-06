@@ -681,6 +681,11 @@ footer.site-footer ul li a:hover, footer.site-footer ul li a:focus {
 }
 
 /* ========================blog=================== */
+h1.page-title {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
 article.single-post {
   padding: 0 30px;
 }
@@ -1097,6 +1102,22 @@ span a.more:hover, span a.more:focus {
 
 .widget .about p {
   font-size: 14px;
+}
+
+.facebook {
+  color: #3b5998 !important;
+}
+
+.twitter {
+  color: #55acee !important;
+}
+
+.linkdin {
+  color: #0077b5 !important;
+}
+
+.pinterest {
+  color: #000 !important;
 }
 
 /*

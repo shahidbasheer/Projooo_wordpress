@@ -48,21 +48,21 @@ class Projo_social_Widget extends WP_Widget {
                  <ul class="list-inline">
                      
                       <?php if ($instance['facebook_username'] != ""): ?>
-                          <li><a href="http://www.facebook.com/<?php echo $instance['facebook_username'] ?>" class="fa fa-facebook-f"></a></li>
+                          <li><a href="http://www.facebook.com/<?php echo $instance['facebook_username'] ?>" class="facebook fa fa-facebook-f"></a></li>
                       <?php endif ?>
 
                       <?php if ($instance['twitter_username'] != ""): ?>
-                          <li><a href="http://www.facebook.com/<?php echo $instance['twitter_username'] ?>" class="fa fa-twitter"></a></li>
+                          <li><a href="https://twitter.com/<?php echo $instance['twitter_username'] ?>" class="twitter fa fa-twitter"></a></li>
                       <?php endif ?>
 
 
-                      <?php if ($instance['googleplus_username'] != ""): ?>
-                          <li><a href="http://www.facebook.com/<?php echo $instance['googleplus_username'] ?>" class="fa fa-google-plus-square"></a></li>
+                      <?php if ($instance['linkdin_username'] != ""): ?>
+                          <li><a href="http://www.linkedin.com/<?php echo $instance['linkdin_username'] ?>" class="linkdin fa fa-linkedin"></a></li>
                       <?php endif ?>
 
 
                       <?php if ($instance['pinterest_username'] != ""): ?>
-                          <li><a href="http://www.facebook.com/<?php echo $instance['pinterest_username'] ?>" class="fa fa-pinterest"></a></li>
+                          <li><a href="http://www.pinterest.com/<?php echo $instance['pinterest_username'] ?>" class="pinterest fa fa-pinterest"></a></li>
                       <?php endif ?>
 
                       
@@ -93,7 +93,7 @@ class Projo_social_Widget extends WP_Widget {
         $instance = array();
         $instance['facebook_username'] = ( ! empty( $new_instance['facebook_username'] ) ) ? strip_tags( $new_instance['facebook_username'] ) : '';
         $instance['twitter_username'] = ( ! empty( $new_instance['twitter_username'] ) ) ? strip_tags( $new_instance['twitter_username'] ) : '';
-        $instance['googleplus_username'] = ( ! empty( $new_instance['googleplus_username'] ) ) ? strip_tags( $new_instance['googleplus_username'] ) : '';
+        $instance['linkdin_username'] = ( ! empty( $new_instance['linkdin_username'] ) ) ? strip_tags( $new_instance['linkdin_username'] ) : '';
         $instance['pinterest_username'] = ( ! empty( $new_instance['pinterest_username'] ) ) ? strip_tags( $new_instance['pinterest_username'] ) : '';
         
         return $instance;
@@ -110,7 +110,7 @@ class Projo_social_Widget extends WP_Widget {
         $fb_heading = ! empty( $instance['fb_heading'] ) ? $instance['fb_heading'] : __( '', '_tk' );
         $facebook_username = ! empty( $instance['facebook_username'] ) ? $instance['facebook_username'] : __( '', '_tk' );
         $twitter_username = ! empty( $instance['twitter_username'] ) ? $instance['twitter_username'] : __( '', '_tk' );
-        $googleplus_username = ! empty( $instance['googleplus_username'] ) ? $instance['googleplus_username'] : __( '', '_tk' );
+        $linkdin_username = ! empty( $instance['linkdin_username'] ) ? $instance['linkdin_username'] : __( '', '_tk' );
         $pinterest_username = ! empty( $instance['pinterest_username'] ) ? $instance['pinterest_username'] : __( '', '_tk' );
         
 
@@ -127,8 +127,8 @@ class Projo_social_Widget extends WP_Widget {
 
 
                  <p>
-                    <label for="<?php echo $this->get_field_id( 'googleplus_username' ); ?>"><?php _e('Google User Name', '_tk'); ?></label> 
-                    <input class="widefat m-t-b" type="text" id="<?php echo $this->get_field_id('googleplus_username'); ?>" name="<?php echo $this->get_field_name('googleplus_username'); ?>" value="<?php echo esc_attr( $googleplus_username );?>" placeholder="G+ Username">                 
+                    <label for="<?php echo $this->get_field_id( 'linkdin_username' ); ?>"><?php _e('Linkin User Name', '_tk'); ?></label> 
+                    <input class="widefat m-t-b" type="text" id="<?php echo $this->get_field_id('linkdin_username'); ?>" name="<?php echo $this->get_field_name('linkdin_username'); ?>" value="<?php echo esc_attr( $linkdin_username );?>" placeholder="G+ Username">                 
                 </p>
                 
                  <p>
