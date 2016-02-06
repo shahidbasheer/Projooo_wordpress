@@ -1228,6 +1228,14 @@ a.back-tp-home-page {
   .navbar-collapse {
     margin-top: 10px;
   }
+
+  .cta .cta-price {
+    padding: 10px 36px;
+  }
+
+  .devider-100 {
+    height: 1;
+  }
 }
 /*
  * ----------------------------------------------------------------------------------------
