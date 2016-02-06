@@ -466,6 +466,7 @@ section.intro {
 }
 .intro img {
   margin-top: 50px;
+  margin-bottom: -10px;
 }
 
 .anotherintro {
@@ -1087,6 +1088,10 @@ span a.more:hover, span a.more:focus {
 }
 .price_feature ul li {
   line-height: 1.8;
+}
+
+.widget .about p {
+  font-size: 14px;
 }
 
 /*
