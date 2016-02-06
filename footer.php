@@ -64,13 +64,12 @@
     <?php get_template_part( 'includes/modal-form' ); ?>
 
 
-    <!-- Hotjar Tracking Code for http://www.proojo.com -->
 <script>
-(function(h,o,t,j,a,r);
-h._hjSettings=149892,hjsv;
-a=o.getElementsByTagName('head')0;
-r=o.createElement('script');r.async=1;
-r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-a.appendChild(r);
-})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+(function(i,s,o,g,r,a,m),i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-73414426-1', 'auto');
+ga('send', 'pageview');
+
 </script>
