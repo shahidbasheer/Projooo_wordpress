@@ -348,6 +348,12 @@ section {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+@media (max-width: 500px) {
+  section {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+  }
+}
 
 section.intro {
   margin-bottom: 0;
@@ -388,6 +394,9 @@ section.intro {
 @media (max-width: 767px) {
   .headwrap__blue h1 {
     font-size: 34px;
+    max-width: 78%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .headwrap__blue p {
     font-size: 18px;
@@ -406,7 +415,25 @@ section.intro {
 @media (max-width: 767px) {
   .headwrap__blue .form-control {
     margin-bottom: 10px;
-    width: 235px !important;
+    width: 86% !important;
+  }
+  .headwrap__blue .btn {
+    width: 86%;
+  }
+}
+@media (max-width: 500px) {
+  .headwrap__blue .form-control {
+    margin-bottom: 10px;
+    width: 95% !important;
+  }
+  .headwrap__blue .btn {
+    width: 95%;
+  }
+  .headwrap__blue h1 {
+    max-width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1147,6 +1174,61 @@ a.back-tp-home-page {
   margin-bottom: 10px;
 }
 
+@media (max-width: 500px) {
+  .wistia_embed.wistia_async_b1k74nvlyu {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .navbar-header {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .wistia_embed.wistia_async_b1k74nvlyu {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  #modal-form .form-control {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .modal-dialog {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .anotherintro.m-b-80 {
+    margin-bottom: 30px !important;
+  }
+
+  .navbar-custom {
+    margin-bottom: 30px;
+  }
+
+  .seprater-bottom-70 {
+    margin-bottom: 30px !important;
+  }
+
+  .post-cta {
+    max-width: 648px;
+    padding: 18px 24px;
+  }
+
+  .team > ul > li {
+    margin-top: 28px;
+  }
+
+  .contact-us__address {
+    padding: 26px;
+  }
+
+  .navbar-collapse {
+    margin-top: 10px;
+  }
+}
 /*
  * ----------------------------------------------------------------------------------------
  * Sidebar styles.
