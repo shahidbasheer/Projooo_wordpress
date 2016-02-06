@@ -12,20 +12,20 @@
                     
                
      	   <section class="container-projoo anotherintro">
-     	   	<h2 class="m-b-10">Projooo and Business Value.</h2>
+     	   	<!-- <h2 class="m-b-10">Projooo and Business Value.</h2> -->
      	   	
-     	   	 <p>We’re dedicated to selling innovative and creative products to designers at affordable prices. We also help designers maximize their revenue by actively promoting the products that they sell through our market.We’re dedicated to selling innovative and creative products to designers at affordable prices. We also help designers maximize their revenue by actively promoting the products that they sell through our market.</p>
+     	   	 <p>We are a New York based company with our team spread across U.S.A and Asia. We have a team working towards creating web based applications tools with users in mind so as to bring in the best productivity and team collaboration tool for small and medium business. Our team consists of people who are innovative, creative, fun loving and are highly skilled in their respective fields. As a team we thrive towards having systems and processes in place to help Small Scale Businesses and Freelancers.</p>
      	   </section>
 
      	   <section class="container-projoo anotherintro m-b-80">
-     	   	<h2 class="m-b-40">We are build software for Small Business.</h2>
-     	   	<p>We’re dedicated to selling innovative and creative products to designers at affordable prices. We also help designers maximize their revenue by actively promoting the products that they sell through our market.We’re dedicated to selling innovative and creative products to designers at affordable prices. We also help designers maximize their revenue by actively promoting the products that they sell through our market.</p>
+     	   	<h2 class="m-b-40">Business Vision.</h2>
+     	   	<p>Our dream is to build a simple team collaboration Application for small business workspace tool for small business. Projoo, which is an online project management tool for small scale business, and freelancers, it helps plan work and keep track of work progress, from discussions, assigned task, to do list and so on, all in one place.</p>
      	   </section>
 
 
 
      	   <section class="container-projoo team m-b-80">
-     	   	<h2 class="m-b-40">We love our work and our team.</h2>
+     	   	<h2 class="m-b-40">We are a team with one dream and one vision.</h2>
      	   	<ul class="list-inline">
      	   		<li>
      	   			<a href="">
