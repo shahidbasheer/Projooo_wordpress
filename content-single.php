@@ -36,8 +36,8 @@
                                      <p><?php echo (get_post_custom_values('last-para')[0]);  ?></p>
                                      <button type="button" class="btn btn-green" data-toggle="modal" data-target="#modal-form">Request for Early Access</button>
                                   </div>
-
-                              <?php echo do_shortcode( '[fbcomments url="" width="375" count="off" num="3" countmsg="wonderful comments!"]' ); ?>
+                              
+                              <?php echo do_shortcode( '[fbcomments]' ); ?>
                               
                               <footer class="entry-meta">
           
