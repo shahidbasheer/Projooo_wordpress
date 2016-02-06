@@ -23,7 +23,7 @@ class list_categories_widget extends WP_Widget {
 		$taxonomy 	= $instance['taxonomy']; // the taxonomy to display
 				
 		$args = array(
-			'number' 	=> $number,
+			'number' 	=> intval( $number),
 			'taxonomy'	=> 'category'
 		);
 		
@@ -84,7 +84,7 @@ class list_categories_widget extends WP_Widget {
         ?>
          <p>
           <label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:'); ?></label>
-          <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $instance['title']; ?>" />
+          <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="number" value="<?php echo $instance['title']; ?>" />
         </p>
 		<p>
           <label for="<?php echo $this->get_field_id('number'); ?>"><?php _e('Number of categories to display'); ?></label>
