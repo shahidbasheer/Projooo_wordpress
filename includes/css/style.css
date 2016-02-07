@@ -1241,6 +1241,11 @@ a.back-tp-home-page {
     height: 1;
   }
 }
+@media (max-width: 340px) {
+  .navbar-brand {
+    max-width: 80%;
+  }
+}
 /*
  * ----------------------------------------------------------------------------------------
  * Sidebar styles.
