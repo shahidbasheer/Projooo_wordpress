@@ -31,7 +31,7 @@
                          
 
                           <div class="contact-us__address">
-                              <p>Proojo.co - 3793 Albany Post Road <br> #615 Hyde Park, NY 12538 USA</p>
+                              <p>Proojo.com - 3793 Albany Post Road <br> 615 Hyde Park, NY 12538 USA</p>
                          </div>
                         
                            
